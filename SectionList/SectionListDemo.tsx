@@ -13,7 +13,7 @@
  */
 
    import {View,Text,SectionList, StyleSheet, NativeScrollEvent,NativeSyntheticEvent} from 'react-native'
-   import { SectionData } from './SectionData'
+   import { SectionData } from '../constants/SectionData'
    import { useEffect, useRef } from 'react'
    
    const SectionListDemo = ()=>{
